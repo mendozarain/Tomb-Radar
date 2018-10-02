@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="18dp"
+    android:layout_marginRight="18dp"
+    android:layout_marginTop="5dp"
+    android:background="@drawable/search_round"
+    android:clickable="true"
+    android:elevation="5dp"
+
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/textFishName"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="-5dp"
+        android:layout_alignParentLeft="true"
+        android:text="Lname"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+
+        android:layout_below="@+id/textFishName"
+
+        android:text="Ddate"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#666"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/textPrice"
+        android:layout_alignParentRight="true"
+        android:layout_alignRight="@id/textFishName"
+
+        android:layout_toRightOf="@id/textFishName"
+        android:text="Fname"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#666"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textFishName"
+
+        android:layout_below="@+id/textFishName"
+        android:text="Bdate"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#666"
+        android:textSize="12sp" />
+
+</RelativeLayout>
