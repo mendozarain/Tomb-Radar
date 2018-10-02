@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/vsearch"
+        android:layout_width="wrap_content"
+        android:layout_height="73dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/btn_round"
+        android:drawableLeft="@drawable/ic_search_black_24dp"
+        android:drawablePadding="2dip"
+        android:elevation="20dp"
+        android:onClick="viewsearch"
+        android:paddingLeft="30dip"
+        android:paddingRight="26dip"
+        android:text="Search"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/vadd"
+        android:layout_width="136dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="68dp"
+        android:background="@drawable/btn_round"
+        android:drawableLeft="@drawable/ic_person_add_black_24dp"
+        android:drawablePadding="2dip"
+        android:elevation="20dp"
+        android:onClick="viewaddmap"
+        android:paddingLeft="30dip"
+        android:paddingRight="26dip"
+        android:text="Add"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vsearch"
+        app:layout_constraintVertical_bias="0.12" />
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Cannot Connect To Database"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vadd"
+        app:layout_constraintVertical_bias="0.241" />
+
+</android.support.constraint.ConstraintLayout>

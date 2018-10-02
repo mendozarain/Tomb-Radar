@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Tomb Radar M </string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_add_map">Map</string>
+    <string name="title_activity_search_map">Map</string>
+    <string name="access_token">pk.eyJ1IjoibWVuZG96YXJoYWlubmUiLCJhIjoiY2ptYzAydnN5MW5yMzN2bnQ4YTVwbW4waCJ9.v5D02MgtlWqQfZvKTkDplw</string>
+</resources>
