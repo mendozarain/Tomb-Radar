@@ -10,14 +10,14 @@ How it works:
 The Grave Mapping and Navigation app uses GPS technology to track the user's location and provide directions to graves. The app also uses a database of grave locations to generate accurate and up-to-date directions.
 
 Screenshots:
-https://github.com/mendozarain/Tomb-Radar/blob/master/CleanShot%202023-10-01%20at%2016.44.10%402x.png
-https://github.com/mendozarain/Tomb-Radar/blob/master/CleanShot%202023-10-01%20at%2016.44.40%402x.png
+![Screen Shot 1](https://github.com/mendozarain/Tomb-Radar/blob/master/CleanShot%202023-10-01%20at%2016.44.10%402x.png)
+![Screen Shot 2](https://github.com/mendozarain/Tomb-Radar/blob/master/CleanShot%202023-10-01%20at%2016.44.40%402x.png)
 
 Dependencies:
 - Android Studio
 - Google Maps SDK
 - Mapbox SDK
-- 
+  
 How to run the application:
 - Clone the repository to your local machine.
 - Open the project in Android Studio.
